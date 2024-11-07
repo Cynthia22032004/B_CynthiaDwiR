@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> variable example </title>
+</head>
+    <body>
+        <h3>Belajar JS2</h3>
+        <script > 
+            //menggunakan var 
+            var x = 10;
+            document.write("<p>Nilai x (dengan var): "+ x + "</p>");
+
+            //menggunakan let 
+             let y = 20;
+            document.write("<p>Nilai y (dengan let): "+ y + "</p>");
+
+            //menggunakan const
+             const z = 30;
+             document.write("<p>Nilai z (dengan const): "+ z + "</p>");
+
+             //cobalah mengubah nilai variable 
+             x = 15; //ok
+             y = 25; //ok
+             // z = 35; //error karena z ialah konstanta
+
+             document.write("<p> setelah diubah:</p>");
+             document.write("<p> nilai x: " + x + "</p>");
+             document.write("<p> nilai y: " + y + "</p>");
+             document.write("<p> nilai z: " + z + "</p>");
+        </script>
+    </body>
+    </html>
